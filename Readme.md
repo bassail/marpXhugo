@@ -37,3 +37,4 @@ docker run -d -p 8080:80 ptechdej
 
 - Prendre en compte une variable d'environnement pour définir l'URL du site web, actuellement, c'est toujours localhost.
 - Améliorer la commande `sed` exécutée pendant la construction de l'image Docker. Actuellement, elle ne prend pas en compte tous les chemins de fichiers statiques.
+- Télécharger Hugo dans le Dockerfile
