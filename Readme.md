@@ -36,5 +36,4 @@
 ## TODO 
 
 - Améliorer la commande `sed` exécutée pendant la construction de l'image Docker. Actuellement, elle ne prend pas en compte tous les chemins de fichiers statiques.
-- Télécharger Hugo dans le Dockerfile
 - Pouvoir tester le contenu d'Hugo pendant l'édition (hugo server -D) sur le port 1313.
