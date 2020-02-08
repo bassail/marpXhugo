@@ -22,11 +22,11 @@
 
 - Télécharger la dernière release "extended" de Hugo pour Linux.
 - Extraire le binaire Hugo à côté du répertoire `ptechdej`
-- Lancer la commande de construction d'une image Docker : `docker build --no-cache -t ptechdej .` (versionner l'image si besoin).
+- Lancer la commande de construction d'une image Docker : `docker build --no-cache -t ptechdej:{version} .` (versionner l'image si besoin).
 
 ## Lancer un container
 
-docker run -d -p 8080:80 ptechdej
+`docker run -d -p 8080:80 ptechdej:{version}`
 
 ## Ajouter un nouveau thème
 
@@ -35,6 +35,6 @@ docker run -d -p 8080:80 ptechdej
 
 ## TODO 
 
-- Prendre en compte une variable d'environnement pour définir l'URL du site web, actuellement, c'est toujours localhost.
 - Améliorer la commande `sed` exécutée pendant la construction de l'image Docker. Actuellement, elle ne prend pas en compte tous les chemins de fichiers statiques.
 - Télécharger Hugo dans le Dockerfile
+- Pouvoir tester le contenu d'Hugo pendant l'édition (hugo server -D) sur le port 1313.
