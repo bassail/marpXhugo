@@ -18,6 +18,18 @@
 [Site web d'Hugo](https://gohugo.io/)
 [Releases d'Hugo](https://github.com/gohugoio/hugo/releases)
 
+### Marp 
+
+[Site web de Marp ](https://marp.app/#get-started)
+[Documentation Marpit](https://marpit.marp.app/)
+[Extension VSCode pour Marp](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+
+#### Génération de la présentation Marp
+
+Une fois la présentation terminée, exporter en HTML (via le plugin VSCode), et l'ouvrir.
+Une interface multi-écrans avec les notes de présentation sera disponible.
+
+
 ## Construire une image 
 
 - Télécharger la dernière release "extended" de Hugo pour Linux.
