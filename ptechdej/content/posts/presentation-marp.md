@@ -145,3 +145,29 @@ commons/a/ab/Android_O_Preview_Logo.png)' -->
 On dirait de la magie !
 
 
+---
+
+<style scoped>
+section {
+  font-size: 1.5rem;
+}
+</style>
+
+# Style modifié pour cette slide uniquement
+
+Une liste : 
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ![width:100px](../../static/posts/presentation-marp/batman-logo.png)
+- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ![width:100px](../../static/posts/presentation-marp/batman-logo.png)
+![bg left:40% 75%](../../static/posts/presentation-marp/avengers-logo-snap.png)
+
+```
+<style scoped>
+    section {
+        font-size: 1.5rem;
+    }
+</style>
+
+```
+<!--
+Notes de présentation de la deuxième slide
+-->
